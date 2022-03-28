@@ -31,6 +31,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-bot5lcod@@a_)h
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 ALLOWED_HOSTS = [
     'mysterious-meadow-46796.herokuapp.com',
+    '127.0.0.1',
 ]
 
 
